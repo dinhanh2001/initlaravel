@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Thêm công thức - Quản trị</title>
+		<link href="favicon.png" rel="shortcut icon">
+		<link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/animate/animate.css">
+		<link rel="stylesheet" href="assets/css/main.css"/>
+	</head>
+	<body>
+		<div class="top-nav">
+			<div class="top-nav-box">
+				<div class="side-nav-mobile"><i class="fa fa-bars"></i></div>
+				<div class="logo-wrapper">
+					<div class="logo-box">
+						<img alt="pongo" src="assets/images/logo.png">
+						<a href="index.html">
+							<div class="logo-title">Sống khỏe</div>
+						</a>
+					</div>
+				</div>
+				<div class="top-nav-content">
+					<div class="top-nav-box">
+						<div class="quick-link">
+							<div class="link-icon"><i class="fa fa-bars"></i></div>
+							<ul class="animated bounceInUp">
+								<li><a href="index.html"><i class="fa fa-bars"></i> Bữa nay ăn gì?</a></li>
+								<li><a href="index.html"><i class="fa fa-map-marker"></i> Cài đặt</a></li>
+								<li><a href="index.html"><i class="fa fa-suitcase"></i> Hội nấu ăn</a></li>
+								<li><a href="index.html"><i class="fa fa-signal"></i> Góp ý</a></li>li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<aside class="side-nav">
+				<div class="side-notification">
+					<div class="notification-icon">
+						<i class="fa fa-envelope-open"></i>
+					</div>
+					<div class="notification-icon">
+						<div class="notification-badge bounceInDown animated timer" data-from="0" data-to="3">3</div>
+						<i class="fa fa-bell"></i>
+						<div class="notification-wrapper animated bounceInUp">
+							<div class="notification-header">Notifications <span class="notification-count">3</span></div>
+							<div class="notification-body">
+								<a class="notification-list" href="index.html">
+									<div class="notification-image">
+										<img alt="pongo" src="assets/images/asparagus.jpg">
+									</div>
+									<div class="notification-content">
+										<div class="notification-text"><strong>Mark</strong> sent you a email</div>
+										<div class="notification-time">1 minutes ago</div>
+									</div>
+								</a>
+							</div>
+							<div class="notification-footer">
+								<a href="index.html">See all notifications</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="user-side-profile">
+					<div class="user-image">
+						<div class="user-on"></div>
+						<img alt="pongo" src="assets/images/profile.png">
+					</div>
+					<div class="clear">
+						<div class="user-name">Người dùng</div>
+						<div class="user-group">Quản trị viên</div>
+						<ul class="user-side-menu animated bounceInUp">
+							<li><a href="index.html">Thông tin <div class="badge badge-yellow pull-right">2</div></a></li>
+							<li><a href="index.html">Chỉnh sửa trang cá nhân</a></li>
+							<li><a href="index.html">Thay đổi mật khẩu</a></li>
+							<li><a href="index.html">Đăng xuất</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="main-menu-title">Danh mục</div>
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="#">
+								<i class="fa fa-bars"></i> 
+								<span>Quản lí khách hàng</span>
+								<div class="badge badge-red pull-right">2</div>
+							</a>
+							<ul>
+								<li><a href="qlkh.html">Danh sách khách hàng</a></li>
+								<li><a href="qlkh.html">Thêm khách hàng</a></li>
+							</ul>
+						</li>
+						<li class="active">
+							<a href="#">
+								<i class="fa fa-random"></i> 
+								<span>Quản lí công thức</span>
+							</a>
+							<ul>
+								<li><a href="#">Danh sách công thức</a></li>
+								<li><a href="#">Thêm công thức</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-window-restore"></i> 
+								<span>Thống kê</span>
+							</a>
+							<ul>
+								<li><a href="#">Theo ngày</a></li>
+								<li><a href="#">Theo trình trạng sức khỏe</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="main-menu-title">Thiết lập</div>
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="calendar.html">
+								<i class="fa fa-map-o"></i> 
+								<span>Quản trị trang web</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<div class="main">
+				<div class="breadcrumb">
+					<a href="index.html">Trang chủ</a> 
+					<a href="index.html">Quản lí công thức</a> 
+				</div>
+				<div class="content with-top-banner">
+					<div class="content-header no-mg-top">
+						<i class="fa fa-newspaper-o"></i>
+						<div class="content-header-title">Thêm công thức</div>
+					</div>
+					<div class="panel">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="content-box">
+									<div class="edit-template__ckeditor">
+								        <div class="reporting--margin">
+								            <div class="edit-template__ckeditor2">
+								                    <textarea id="summernote" name="" cols="30" rows="10" ></textarea>
+								                <div class="reporting__wrap--button">
+								                    <button><a href="#" id="save-data"><i class="fas fa-save"></i><span>&nbsp;&nbsp;&nbsp; Lưu</span></a></button>
+								                </div>
+								            </div>
+								        </div>
+								    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="assets/plugins/jquery/jquery-2.1.1.min.js"></script>
+	<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="libs/ckeditor1/ckeditor.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script>
+		$("#summernote").summernote({
+            height:500,
+            toolbar: [
+                ['style', ['bold', 'italic', 'underline', 'clear']],
+                ['font', ['strikethrough', 'superscript', 'subscript']],
+                ['fontsize', ['fontsize']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['height', ['height']]
+            ],
+            focus: true,
+            disableResizeEditor: true
+        });
+	</script>
+</html>
